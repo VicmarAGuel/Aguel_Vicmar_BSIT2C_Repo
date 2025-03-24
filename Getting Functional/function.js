@@ -26,11 +26,11 @@
 // } else{
 //     console.log(dogName +  "say woof woof")
 // }
- function bark(name,weight){
-    if(weight > 20){
+ function bark(name,weight) {
+    if(weight > 20) {
         console.log(name + "say WOOF WOOF");
-    }if{
-        console.log(name + "say woof woof")
+    } else {
+        console.log(name + "say oink oink")
     }
  }
- bark(jasmine,10);
+ bark("jasmine", 10);
